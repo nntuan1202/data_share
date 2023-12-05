@@ -1,39 +1,30 @@
+Khảo sát view: 
+- Bổ sung thêm thời gian online của các nội dung
+- Thống kê view by day
 
 
-Xây dựng bộ dữ liệu sự kiện và cảnh quay đề xuất
-Crawl video từ các kênh youtube nổi tiếng có nhiều lượt view
-Chia nhỏ video thành các clip cảnh quay và gắn nhãn
-Danh sách các cảnh quay đề xuất như sau
-	
-	
-	
 
-- Xây dựng mô hình phát hiện sự kiện trong video (Event Detection)
+- Xây dựng mô hình phát hiện hành động trong video (ACTION DETECTION)
+- Nghiên cứu xem các cảnh quay độ dài ?
 Input: video
-Ouput: loại cảnh quay + khoảng thời gian xảy ra
+Ouput: loại hành động + khoảng thời gian xảy ra
 Giải pháp: đưa 1 hình 3D CNN
 
 
-- Video split: Cắt các đoạn clip sự kiện từ video
+- VIDEO SPLIT: Cắt các đoạn clip hành động từ video
 
 MoviePY, Scikit-video và VidGea
 
-- Generation video:
-Input: Clip cảnh quay đề xuất, thông số cài đặt tùy chỉnh
-Output: video highlight
+- GENERATION VIDEO:
+Input: Clip hành động đề xuất, thông số cài đặt tùy chỉnh
+Output: VIDEO HIGHLIGHT
 Các thông số có thể tùy chỉnh
- + Chèn logo nhận dạng thương hiệu
- + Thêm đoạn chuyển cảnh
- + Thời lượng video highlight
+- Chèn logo nhận dạng thương hiệu
+- Thêm đoạn chuyển cảnh
+- Thời lượng video highlight
 Có thể thêm video ví dụ vào slide
  Module sẽ tự tính toán và lựa chọn các cảnh quay nổi bật nhất theo thứ tự ưu tiên đảm bảo thời lượng output theo yêu cầu
 
-
-Khảo sát view: Bổ sung thêm thời gian online của các nội dung
-
-Tính cấp thiết 
-- Khảo sát Thị trường xem highlights thể thao
-Dữ liệu được crawl từ các kênh Youtube
  
 
 các sự kiện bóng đá khác nhau diễn ra thường là từ 3 đến 4 giây
