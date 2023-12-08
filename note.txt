@@ -2,6 +2,9 @@ Khảo sát view:
 - Bổ sung thêm thời gian online của các nội dung
 - Thống kê view by day
 
+- Thêm slide về lý thuyết
++ Ứng dụng của video summarization
++ Các lý thuyết nghiên cứu trong xử lý video
 
 
 - Xây dựng mô hình phát hiện hành động trong video (ACTION DETECTION)
